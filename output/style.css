@@ -1017,6 +1017,9 @@
   .bg-\[url\(\'\.\.\/assets\/novo-care-banner-bg\.png\'\)\] {
     background-image: url('../assets/novo-care-banner-bg.png');
   }
+  .bg-\[url\(\'\.\.\/assets\/order_assets\/order-banner-bg\.png\'\)\] {
+    background-image: url('../assets/order_assets/order-banner-bg.png');
+  }
   .bg-\[url\(\'\.\.\/assets\/profile_assets\/profile-banner-bg\.png\'\)\] {
     background-image: url('../assets/profile_assets/profile-banner-bg.png');
   }
@@ -2001,6 +2004,11 @@
       margin-top: 12px;
     }
   }
+  .md\:mt-\[14px\] {
+    @media (width >= 48rem) {
+      margin-top: 14px;
+    }
+  }
   .md\:mt-\[15px\] {
     @media (width >= 48rem) {
       margin-top: 15px;
@@ -2527,6 +2535,31 @@
   .xl\:mt-\[0px\] {
     @media (width >= 80rem) {
       margin-top: 0px;
+    }
+  }
+  .xl\:mt-\[1px\] {
+    @media (width >= 80rem) {
+      margin-top: 1px;
+    }
+  }
+  .xl\:mt-\[4px\] {
+    @media (width >= 80rem) {
+      margin-top: 4px;
+    }
+  }
+  .xl\:mt-\[14px\] {
+    @media (width >= 80rem) {
+      margin-top: 14px;
+    }
+  }
+  .xl\:mt-\[18px\] {
+    @media (width >= 80rem) {
+      margin-top: 18px;
+    }
+  }
+  .xl\:mt-\[20px\] {
+    @media (width >= 80rem) {
+      margin-top: 20px;
     }
   }
   .xl\:mt-\[24px\] {
