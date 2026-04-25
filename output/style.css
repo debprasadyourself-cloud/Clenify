@@ -2565,6 +2565,11 @@
       left: 50px;
     }
   }
+  .xl\:left-\[300px\] {
+    @media (width >= 80rem) {
+      left: 300px;
+    }
+  }
   .xl\:left-\[400px\] {
     @media (width >= 80rem) {
       left: 400px;
