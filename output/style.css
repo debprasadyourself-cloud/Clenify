@@ -1014,6 +1014,9 @@
   .bg-\[url\(\'\.\.\/assets\/img2-testimonial\.png\'\)\] {
     background-image: url('../assets/img2-testimonial.png');
   }
+  .bg-\[url\(\'\.\.\/assets\/novo-care-banner-bg\.png\'\)\] {
+    background-image: url('../assets/novo-care-banner-bg.png');
+  }
   .bg-\[url\(\'\.\.\/assets\/service_assets\/deep-dive-services-bg\.png\'\)\] {
     background-image: url('../assets/service_assets/deep-dive-services-bg.png');
   }
