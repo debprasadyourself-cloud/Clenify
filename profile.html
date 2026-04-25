@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./output/style.css" />
+    <title>Clenify_Profile</title>
+  </head>
+  <body>
+    <!-- banner section -->
+    <section
+      class="profile-banner-section bg-[url('/assets/profile_assets/profile-banner-bg.png')] w-100% h-screen bg-center bg-cover relative top-0 left-0 right-0"
+    >
+      <header class="py-5 px-[12px]">
+        <div
+          class="max-w-[1347px] mx-auto flex justify-between items-center xl:gap-49 md:gap-[34px] border-2 rounded-full py-[21px] px-[33px] border-white border-solid"
+        >
+          <div class="nav-logo">
+            <a href="./index.html">
+              <img src="./assets/nav-logo.png" alt="" />
+            </a>
+          </div>
+
+          <nav
+            class="xl:gap-[150px] md:gap-[80px] md:static fixed top-0 left-[-100%] bottom-0 md:w-auto w-[80%] md:h-auto h-sreen md:p-0 p-3 md:bg-transparent bg-[#404040]"
+          >
+            <ul class="flex md:flex-row flex-col xl:gap-12.5 gap-[25px]">
+              <li>
+                <a
+                  class="text-white xl:text-[20px] md:text-[13px] font-opensans uppercase"
+                  href=""
+                  >home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white xl:text-[20px] md:text-[13px] font-opensans uppercase"
+                  href="./service.html"
+                  target="_blank"
+                  >services</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white xl:text-[20px] md:text-[13px] font-opensans uppercase"
+                  href=""
+                  >book</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white xl:text-[20px] md:text-[13px] font-opensans uppercase"
+                  href=""
+                  >orders</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white xl:text-[20px] md:text-[13px] font-opensans uppercase"
+                  href=""
+                  >profile</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-nowrap text-white xl:text-[20px] md:text-[13px] font-opensans uppercase border-2 rounded-full xl:px-[14px] md:px-[5px] xl:py-[18px] md:py-[10px] xl:my-[10px] md:my border-white border-solid xl:ml-[150px] md:ml-[80px]"
+                  href=""
+                  >Hi Amrit Das</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <button id="baricon" class="md:hidden block">
+            <i class="fa-solid fa-bars text-white"></i>
+          </button>
+        </div>
+      </header>
+
+      <div
+        class="max-w-[820px] m-auto uppercase flex flex-col justify-center items-center text-center md:mb-[220px] mt-[160px]"
+      >
+        <h1
+          class="max-w-[855px] text-white text-wrap font-opensans xl:text-[72px] md:text-[31px] text-[24px]"
+        >
+          Manage Your Profile
+        </h1>
+      </div>
+
+      <div class="profile-defination">
+        <div class="profile-pic">
+          <img
+            class="absolute xl:left-[400px] md:left-[150px] left-[0px] bottom-[-100px] bg-center bg-cover bg-no-repeat"
+            src="./assets/profile_assets/profile-pic.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="profile cntn flex flex-col absolute xl:left-[570px] md:left-[330px] left-[155px] bottom-[-80px]"
+        >
+          <h3 class="text-[20px] font-semibold">Amrit Das</h3>
+          <p class="text-[18px]">Become customer since 2025</p>
+          <div class="star flex flex-row items-center">
+            <img
+              class="bg-center bg-cover bg-no-repeat h-4 w-4"
+              src="./assets/star.png"
+              alt=""
+            />
+            <p class="text-[18px]">Gold Member</p>
+          </div>
+        </div>
+
+        <div
+          class="profile-btn absolute xl:right-[310px] md:right-[125px] right-[0px] xl:bottom-[-50px] md:bottom-[-100px] sm:bottom-[-100px] bottom-[-120px]"
+        >
+          <a
+            href="#"
+            class="px-[32px] py-[16px] bg-[#F1B856] rounded-4xl hover:shadow-xl hover:shadow-black"
+          >
+            Book a Service
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- profile-cntn-section -->
+
+    <section class="profile-cntn py-[160px]">
+      <div
+        class="max-w-[1320px] grid md:grid-cols-[33.33%_auto] grid-cols-1 gap-[24px] px-4 m-auto"
+      >
+        <!-- left-cntn -->
+
+        <div class="left-cntn max-w-[424px]">
+          <div class="bg-white overflow-hidden shadow rounded-4xl border">
+            <div class="px-4 py-5 sm:px-6 flex flex-row gap-7">
+              <h3 class="text-lg leading-6 font-medium text-gray-900">
+                Personal Info
+              </h3>
+
+              <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                <a class="" href="#">Edit</a>
+              </p>
+            </div>
+
+            <div class="border-t border-gray-200 px-4 py-5 sm:p-0">
+              <dl class="sm:divide-y sm:divide-gray-200">
+                <div
+                  class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                >
+                  <dt class="text-sm font-medium text-gray-500">
+                    Member Since
+                  </dt>
+                  <dd
+                    class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                  >
+                    August 2025
+                  </dd>
+                </div>
+
+                <div
+                  class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                >
+                  <dt class="text-sm font-medium text-gray-500">Lives In</dt>
+                  <dd
+                    class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                  >
+                    Kolkata, India
+                  </dd>
+                </div>
+
+                <div
+                  class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                >
+                  <dt class="text-sm font-medium text-gray-500">BirthDay</dt>
+                  <dd
+                    class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                  >
+                    3rd August 1997
+                  </dd>
+                </div>
+
+                <div
+                  class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                >
+                  <dt class="text-sm font-medium text-gray-500">Gender</dt>
+                  <dd
+                    class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                  >
+                    Male
+                  </dd>
+                </div>
+
+                <div
+                  class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                >
+                  <dt class="text-sm font-medium text-gray-500">Phone No</dt>
+                  <dd
+                    class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                  >
+                    8509066834
+                  </dd>
+                </div>
+
+                <div
+                  class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                >
+                  <dt class="text-sm font-medium text-gray-500">Email</dt>
+                  <dd
+                    class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                  >
+                    amrit@gmail.com
+                  </dd>
+                </div>
+
+                <div class="py-3 sm:py-5 hover:shadow-xl hover:shadow-black">
+                  <a
+                    href="#"
+                    class="flex flex-row justify-center items-center m-auto text-center"
+                  >
+                    Logout
+                    <img src="./assets/profile_assets/log-out.png" alt="" />
+                  </a>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-cntn">
+          <div
+            class="top flex md:flex-row flex-col md:justify-between gap-[24px]"
+          >
+            <!-- service preferences -->
+
+            <div class="1st max-w-[424px]">
+              <div class="bg-white overflow-hidden shadow rounded-4xl border">
+                <div class="border-t border-gray-200 px-4 py-5 sm:p-0">
+                  <h3 class="text-lg leading-6 font-medium text-gray-900 p-5.5">
+                    Services Preferences
+                  </h3>
+
+                  <dl class="sm:divide-y sm:divide-gray-200">
+                    <div
+                      class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                    >
+                      <dt class="text-sm font-medium text-gray-500">
+                        Preferred Time Slot
+                      </dt>
+                      <dd
+                        class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                      >
+                        9:00 AM – 11:00 AM
+                      </dd>
+                    </div>
+
+                    <div
+                      class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                    >
+                      <dt class="text-sm font-medium text-gray-500">
+                        Default Service
+                      </dt>
+                      <dd
+                        class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                      >
+                        Wash & Fold
+                      </dd>
+                    </div>
+
+                    <div
+                      class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                    >
+                      <dt class="text-sm font-medium text-gray-500">
+                        Preferred Language
+                      </dt>
+                      <dd
+                        class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                      >
+                        English
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+
+            <!-- notifications -->
+
+            <div class="2nd max-w-[424px]">
+              <div class="bg-white overflow-hidden shadow rounded-4xl border">
+                <div class="border-t border-gray-200 px-4 py-5 sm:p-0">
+                  <h3 class="text-lg leading-6 font-medium text-gray-900 p-5.5">
+                    Notifications
+                  </h3>
+                  <!-- 1st-line -->
+                  <dl class="sm:divide-y sm:divide-gray-200">
+                    <div
+                      class="py-3 sm:py-5 flex flex-row justify-between sm:gap-4 sm:px-6"
+                    >
+                      <dt class="text-sm font-medium text-gray-500">
+                        Order Status Updates (SMS)
+                      </dt>
+                      <dd class="mt-1">
+                        <img
+                          src="./assets/profile_assets/pfofile-btn.png"
+                          alt=""
+                          class="h-[30px] w-[50px] bg-center bg-cover bg-no-repeat"
+                        />
+                      </dd>
+                    </div>
+                    <!-- 2nd-line -->
+                    <div
+                      class="py-3 sm:py-5 flex flex-row justify-between sm:gap-4 sm:px-6"
+                    >
+                      <dt class="text-sm font-medium text-gray-500">
+                        Delivery Alerts
+                      </dt>
+                      <dd class="mt-1">
+                        <img
+                          src="./assets/profile_assets/pfofile-btn.png"
+                          alt=""
+                          class="h-[30px] w-[50px] bg-center bg-cover bg-no-repeat"
+                        />
+                      </dd>
+                    </div>
+                    <!-- 3rd-line -->
+                    <div
+                      class="py-3 sm:py-5 sm:gap-4 sm:px-6 flex justify-between"
+                    >
+                      <dt class="text-sm font-medium text-gray-500">
+                        Promotional Offers & Discounts
+                      </dt>
+                      <dd class="mt-1 sm:mt-0">
+                        <img
+                          src="./assets/profile_assets/pfofile-btn.png"
+                          alt=""
+                          class="h-[30px] w-[50px] bg-center bg-cover bg-no-repeat"
+                        />
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- payment method -->
+          <div class="bottom-payment max-w-[872px] mt-[25px]">
+            <div class="bg-white overflow-hidden shadow rounded-4xl border">
+              <div class="border-t border-gray-200 px-4 py-5 sm:p-0">
+                <div
+                  class="payment-hdr flex flex-row justify-between items-center p-2.5"
+                >
+                  <h3 class="text-[18px] leading-6 font-semibold sm:p-5.5 p-1">
+                    Payment Method
+                  </h3>
+
+                  <p class="mt-1 text-end max-w-[117px]">
+                    <a
+                      class="p-3 border border-[#F1B856] rounded-4xl md:text-[16px] text-[10px] text-nowrap"
+                      href="#"
+                      >+ ADD MORE</a
+                    >
+                  </p>
+                </div>
+
+                <dl class="sm:divide-y sm:divide-gray-200">
+                  <div
+                    class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                  >
+                    <dt class="text-sm font-medium text-gray-500">
+                      💳  HDFC Visa •••• 4321
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm sm:mt-0 sm:col-span-2 text-end text-[#F1B856]"
+                    >
+                      Default
+                    </dd>
+                  </div>
+
+                  <div
+                    class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                  >
+                    <dt class="text-sm font-medium text-gray-500">
+                      📱  Google Pay / UPI
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                    >
+                      Linked
+                    </dd>
+                  </div>
+
+                  <div
+                    class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+                  >
+                    <dt class="text-sm font-medium text-gray-500">
+                      💵  Cash on Delivery
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 text-end"
+                    >
+                      Available
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer
+      class="footer-section bg-[url('/assets/footer-bg.png')] bg-center bg-cover pt-[70px] flex justify-center items-center md:text-start text-center px-3 rounded-t-3xl font-opensans"
+    >
+      <div class="max-w-[1320px] grid md:grid-cols-[33.33%_auto] gap-[70px]">
+        <div class="footer-cntn-left max-w-[447px] w-[100%]">
+          <div
+            class="footer-logo mb-[45px] flex md:justify-start justify-center"
+          >
+            <a href="index.html">
+              <img src="./assets/footer-logo.png" alt="" />
+            </a>
+          </div>
+
+          <div class="footer-cntn-col-1 md:text-[25px] text-[16px]">
+            <h3 class="">Subscribe to News Letter</h3>
+
+            <a href="">
+              <img class="py-[20px]" src="./assets/subscribe-btn.png" alt="" />
+            </a>
+
+            <p>By subscribing you agree to our Privacy Policy and consent .</p>
+          </div>
+
+          <div class="">
+            <p
+              class="md:text-[25px] text-[16px] xl:mt-[80px] md:mt-[67px] mt-[30px]"
+            >
+              Copyright 2026 Clenify. All Rights Reserved
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="footer-cntn-right max-w-[803px] flex md:flex-row flex-col xl:gap-[100px] md:gap-[50px] gap-[30px] max-w-[803px] text-wrap"
+        >
+          <div class="footer-column1 md:text-[18px] text-[14px]">
+            <div
+              class="footer-hdr md:pb-[13px] pb-[5px] font-semibold text-[22px]"
+            >
+              Company
+            </div>
+            <ul class="footer-link-list">
+              <li>
+                <a
+                  class="footer-links md:pb-[15px] pb-[10px] text-[20px]"
+                  href="#"
+                >
+                  Our Team
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-links md:pb-[15px] pb-[10px] text-[20px]"
+                  href="#"
+                >
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-links md:pb-[15px] pb-[10px] text-[20px]"
+                  href="#"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-links md:pb-[15px] pb-[10px] text-[20px]"
+                  href="#"
+                >
+                  Testimonials
+                </a>
+              </li>
+              <li class="">
+                <a class="footer-links text-[20px]" href=""> Get Quote </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column2 md:text-[18px] text-[14px]">
+            <div
+              class="footer-hdr md:pb-[13px] pb-[5px] font-semibold text-[22px]"
+            >
+              Quick links
+            </div>
+            <ul class="footer-link-list">
+              <li>
+                <a
+                  class="footer-links md:pb-[13px] pb-[5px] text-[20px]"
+                  href=""
+                >
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-links md:pb-[13px] pb-[5px] text-[20px]"
+                  href=""
+                  >Privacy policy
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-links md:pb-[13px] pb-[5px] text-[20px]"
+                  href=""
+                >
+                  Career
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column3 md:text-[18px] text-[14px] -wrap">
+            <div
+              class="footer-hdr md:pb-[13px] pb-[5px] font-semibold text-[22px]"
+            >
+              Contact
+            </div>
+            <ul
+              class="footer-link-list xl:text-[20px] md:text-[16px] text-[20px]"
+            >
+              <li>
+                <a class="footer-links md:pb-[13px] pb-[5px]" href="">
+                  8509066834
+                </a>
+              </li>
+              <li>
+                <a class="footer-links md:pb-[13px] pb-[5px]" href="">
+                  amritgmail.com
+                </a>
+              </li>
+              <li>
+                <a class="footer-links md:pb-[13px] pb-[5px]" href="">
+                  Barasat Pioneer Park, 124,
+                </a>
+              </li>
+              <li class="footer-social-media font-bold text-[20px]">
+                Follow Us At
+
+                <a
+                  class="flex xl:flex-row md:flex-col flex-row gap-5 md:justify-start justify-center"
+                  href=""
+                >
+                  <img
+                    class="h-[30px] w-[30px] hover:shadow-xl hover:shadow-black"
+                    src="./assets/footer-fb.png"
+                    alt="facebook"
+                  />
+                  <img
+                    class="h-[30px] w-[30px] hover:shadow-xl hover:shadow-black"
+                    src="./assets/footer-picsart.png"
+                    alt="picsart"
+                  />
+                  <img
+                    class="h-[30px] w-[30px] hover:shadow-xl hover:shadow-black"
+                    src="./assets/footer-twitter.png"
+                    alt="twitter"
+                  />
+                  <img
+                    class="h-[30px] w-[30px] hover:shadow-xl hover:shadow-black"
+                    src="./assets/footer-insta.png"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
