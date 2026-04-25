@@ -1140,6 +1140,9 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
+  .px-\[8px\] {
+    padding-inline: 8px;
+  }
   .px-\[10px\] {
     padding-inline: 10px;
   }
