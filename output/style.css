@@ -996,6 +996,9 @@
   .bg-\[\#d8931b\] {
     background-color: #d8931b;
   }
+  .bg-\[url\] {
+    background-color: url;
+  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -1046,6 +1049,30 @@
   }
   .bg-\[url\(\'\/assets\/services-bg\.png\'\)\] {
     background-image: url('/assets/services-bg.png');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\.\/ass\)\] {
+    background-image: url(../ass);
+  }
+  .bg-\[url\(\.\.\/assets\)\] {
+    background-image: url(../assets);
+  }
+  .bg-\[url\(\.\.\/assets\/\)\] {
+    background-image: url(../assets/);
+  }
+  .bg-\[url\(\.\.\/assets\/ser\)\] {
+    background-image: url(../assets/ser);
+  }
+  .bg-\[url\(\.\.\/assets\/services\)\] {
+    background-image: url(../assets/services);
+  }
+  .bg-\[url\(\.\.\/assets\/services-bg\)\] {
+    background-image: url(../assets/services-bg);
+  }
+  .bg-\[url\(\.\.\/assets\/services-bg\.png\)\] {
+    background-image: url(../assets/services-bg.png);
   }
   .bg-cover {
     background-size: cover;
