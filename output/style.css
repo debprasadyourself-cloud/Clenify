@@ -1029,6 +1029,9 @@
   .bg-\[url\(\'\.\.\/assets\/service_assets\/service-banner-bg\.png\'\)\] {
     background-image: url('../assets/service_assets/service-banner-bg.png');
   }
+  .bg-\[url\(\'\.\.\/assets\/services-bg\.png\'\)\] {
+    background-image: url('../assets/services-bg.png');
+  }
   .bg-\[url\(\'\/assets\/footer-bg\.png\'\)\] {
     background-image: url('/assets/footer-bg.png');
   }
@@ -1086,6 +1089,9 @@
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
   .p-\[10px\] {
     padding: 10px;
   }
@@ -1125,6 +1131,9 @@
   .px-\[33px\] {
     padding-inline: 33px;
   }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -1134,8 +1143,14 @@
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-60 {
+    padding-block: calc(var(--spacing) * 60);
   }
   .py-\[0px\] {
     padding-block: 0px;
@@ -1469,6 +1484,9 @@
   }
   .text-\[12\] {
     color: 12;
+  }
+  .text-\[16\] {
+    color: 16;
   }
   .text-black {
     color: var(--color-black);
@@ -1959,6 +1977,11 @@
       margin: auto;
     }
   }
+  .md\:my-0 {
+    @media (width >= 48rem) {
+      margin-block: calc(var(--spacing) * 0);
+    }
+  }
   .md\:mt-2 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 2);
@@ -1997,6 +2020,11 @@
   .md\:mt-\[6px\] {
     @media (width >= 48rem) {
       margin-top: 6px;
+    }
+  }
+  .md\:mt-\[8px\] {
+    @media (width >= 48rem) {
+      margin-top: 8px;
     }
   }
   .md\:mt-\[12px\] {
@@ -2380,6 +2408,11 @@
       font-size: 25px;
     }
   }
+  .md\:text-\[30px\] {
+    @media (width >= 48rem) {
+      font-size: 30px;
+    }
+  }
   .md\:text-\[31px\] {
     @media (width >= 48rem) {
       font-size: 31px;
@@ -2547,9 +2580,19 @@
       margin-top: 4px;
     }
   }
+  .xl\:mt-\[10px\] {
+    @media (width >= 80rem) {
+      margin-top: 10px;
+    }
+  }
   .xl\:mt-\[14px\] {
     @media (width >= 80rem) {
       margin-top: 14px;
+    }
+  }
+  .xl\:mt-\[16px\] {
+    @media (width >= 80rem) {
+      margin-top: 16px;
     }
   }
   .xl\:mt-\[18px\] {
@@ -2685,6 +2728,11 @@
   .xl\:py-\[1px\] {
     @media (width >= 80rem) {
       padding-block: 1px;
+    }
+  }
+  .xl\:py-\[8px\] {
+    @media (width >= 80rem) {
+      padding-block: 8px;
     }
   }
   .xl\:py-\[14px\] {
