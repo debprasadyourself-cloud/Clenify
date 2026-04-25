@@ -1981,6 +1981,16 @@
       margin-top: 2px;
     }
   }
+  .md\:mt-\[5ppx\] {
+    @media (width >= 48rem) {
+      margin-top: 5ppx;
+    }
+  }
+  .md\:mt-\[5px\] {
+    @media (width >= 48rem) {
+      margin-top: 5px;
+    }
+  }
   .md\:mt-\[6px\] {
     @media (width >= 48rem) {
       margin-top: 6px;
@@ -2069,6 +2079,11 @@
   .md\:mb-\[220px\] {
     @media (width >= 48rem) {
       margin-bottom: 220px;
+    }
+  }
+  .md\:ml-\[30px\] {
+    @media (width >= 48rem) {
+      margin-left: 30px;
     }
   }
   .md\:ml-\[80px\] {
@@ -2271,9 +2286,19 @@
       padding-block: calc(var(--spacing) * 16);
     }
   }
+  .md\:py-\[8px\] {
+    @media (width >= 48rem) {
+      padding-block: 8px;
+    }
+  }
   .md\:py-\[10px\] {
     @media (width >= 48rem) {
       padding-block: 10px;
+    }
+  }
+  .md\:py-\[px\] {
+    @media (width >= 48rem) {
+      padding-block: px;
     }
   }
   .md\:pt-0 {
@@ -2549,6 +2574,21 @@
       margin-top: 250px;
     }
   }
+  .xl\:ml-\[1px\] {
+    @media (width >= 80rem) {
+      margin-left: 1px;
+    }
+  }
+  .xl\:ml-\[50px\] {
+    @media (width >= 80rem) {
+      margin-left: 50px;
+    }
+  }
+  .xl\:ml-\[50pxpx\] {
+    @media (width >= 80rem) {
+      margin-left: 50pxpx;
+    }
+  }
   .xl\:ml-\[150px\] {
     @media (width >= 80rem) {
       margin-left: 150px;
@@ -2557,6 +2597,11 @@
   .xl\:ml-\[321px\] {
     @media (width >= 80rem) {
       margin-left: 321px;
+    }
+  }
+  .xl\:ml-\[px\] {
+    @media (width >= 80rem) {
+      margin-left: px;
     }
   }
   .xl\:flex-row {
@@ -2602,6 +2647,16 @@
   .xl\:px-\[14px\] {
     @media (width >= 80rem) {
       padding-inline: 14px;
+    }
+  }
+  .xl\:py-\[1px\] {
+    @media (width >= 80rem) {
+      padding-block: 1px;
+    }
+  }
+  .xl\:py-\[14px\] {
+    @media (width >= 80rem) {
+      padding-block: 14px;
     }
   }
   .xl\:py-\[18px\] {
